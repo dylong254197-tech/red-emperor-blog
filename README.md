@@ -9,3 +9,5 @@
 ## 授权
 
 MIT License
+
+<!-- trigger rebuild 2026-04-28 -->
