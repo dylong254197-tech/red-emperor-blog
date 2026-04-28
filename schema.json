@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "AI Creator Efficiency Dashboard",
+      "description": "面向AI创作者的Notion全能指挥中心。4个互联数据库、17个预建视图，一站式管理Task、Content Calendar、AI Chat Log和Knowledge Base。",
+      "image": "https://dylong254197-tech.github.io/red-emperor-blog/preview.png",
+      "brand": {
+        "@type": "Brand",
+        "name": "Red Emperor"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "9.00",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
+        "url": "https://dylong254197-tech.github.io/ai-creator-dashboard-template/",
+        "description": "一次性购买，终身更新，5分钟导入Notion即可使用"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Red Emperor"
+        },
+        "datePublished": "2026-04-28",
+        "reviewBody": "这是一个为AI创作者设计的Notion模板包。四个数据库（Task Tracker、Content Calendar、AI Chat Log、Knowledge Base）之间通过关联字段形成闭环，覆盖了从内容规划到知识沉淀的完整工作流。17个预建视图覆盖了常见的查看角度。模板结构清晰，导入后几乎不需要额外配置。其中AI Chat Log的评分和token记录功能对于使用ChatGPT/Claude做创作的群体尤其有用。不足在于没有提供示例数据填充，第一次导入后需要手动熟悉数据库关系。整体而言，$9的价格对高频AI使用者来说是值得的投资。"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1",
+        "reviewCount": "1"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "这个模板适合新手吗？需要Notion使用经验吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "适合。导入后四个数据库和视图都已预建完成，你只需要了解Notion基本操作（创建条目、切换视图）即可使用。模板附带了数据库关系说明，新手可以在10分钟内上手。唯一需要注意的是四个数据库之间的关联字段（如任务关联到内容日历）需要理解Notion的关联概念，但模板已经配置好了这些关系，不需要手动设置。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "支付后多久能收到？下载方式是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支付确认后立即收到。流程：1）向指定ETH地址转账$9等值ETH 2）将交易哈希发送到Telegram @HoHug_bot 3）Bot自动验证后，秒回Notion模板的下载链接。如果无法使用Telegram，可以发送邮件至support邮箱附上交易哈希，人工处理24小时内回复。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "这个模板和普通的Notion模板有什么不同？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "核心差异在于它针对AI创作者的工作流设计，而非通用任务管理。具体来说：1）AI Chat Log数据库支持对AI对话评分、记录token消耗、标注工具来源——这是通用模板没有的 2）四个数据库之间建立了双向关联（任务↔内容日历、聊天日志↔知识库），形成一个内容创作→存档→复用的闭环 3）17个视图中有多个是为AI工作流设计的（如最高评分对话视图、Token统计视图、使用统计视图） 4）知识库条目可以直接链接回原始AI对话，实现完整追溯。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "AI Creator Efficiency Dashboard",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web (Notion)",
+      "offers": {
+        "@type": "Offer",
+        "price": "9.00",
+        "priceCurrency": "USD"
+      }
+    }
+  ]
+}
